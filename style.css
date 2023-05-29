@@ -1,0 +1,66 @@
+.cabeçalho{
+    display: inline-flex;
+}
+
+.mostarda{
+    background-color: #B7730E;
+    width: 900px;
+    height: 297px;
+    display: flex;
+    justify-content: center;
+}
+
+.mostarda-imagem{
+    width: 233.53px;
+    height: 229.74px;
+    padding:34px ;
+}
+
+.cinza{
+    background-color: #B0AFAF;
+    width: 1020px;
+    height: 297px;
+    font-family: 'Inconsolata', monospace;
+    font-weight:  700px;
+    font-size: 64px;
+}
+.cinza-texto{
+    display: inline-flex;
+    align-items: center;
+    margin: 77px;
+    text-align: center;
+}
+.titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 91px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.texto{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: justify;
+    margin: 35px;
+    width: 1800px;
+    height: 300px;
+}
+
+.estrutura{
+    display: grid;
+    grid-template-columns: 675px 675px;
+    row-gap: 90px;
+    column-gap: 35px;
+    margin: 28px;
+    padding-bottom: 27px;
+
+}
+  .fachada_identificação{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+  }
