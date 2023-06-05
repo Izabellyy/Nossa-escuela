@@ -51,7 +51,7 @@
 
 .estrutura{
     display: grid;
-    grid-template-columns: 675px 675px;
+    grid-template-columns: 450px 360px;
     row-gap: 30px;
     column-gap: 450px;
     margin: 36px;
@@ -87,14 +87,68 @@
 }
 
 .fachada_imagem{
-    width: 700px;
+    width: 850px;
     height: 600px;
 }
 
 .laboratório_imagem{
-    width: 700px;
+    width: 850px;
     height: 600px;
 }
 
+.quadra_imagem{
+    width: 850px;
+    height: 600px; 
+}
 
+.pátio_imagem{
+    width: 850px;
+    height: 600px;
+}
 
+.rodapé{
+    background-color: black;
+    width: 1900px;
+    height: 272px;
+    display: grid;
+    grid-template-columns: 230px 20px 1900px;
+    padding: 20px;
+}
+
+.link{
+    color: #ffffff;
+    font-family: 'inter',sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+a:link{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #B7730E;
+
+}
+
+.icone{
+    display: grid;
+    row-gap: 70px;
+    padding-left: 40px;
+    border-top: 2px;
+}
+
+.informações{
+    color: #B7730E;
+    font-family: 'inter',sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    display: grid;
+    row-gap: 20px;
+    padding-left: 60px;
+    padding-top: 2px;
+    width: 1127px;
+}
